@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.sensoranswer">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.sensoranswer">
   <application android:allowBackup="false" android:label="Sensor Answer Call">
     <meta-data android:name="xposedmodule" android:value="true"/>
     <meta-data android:name="xposeddescription" android:value="Shake or lift to answer incoming call"/>
