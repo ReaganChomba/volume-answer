@@ -2,6 +2,9 @@
 *.aab
 build/
 .gradle/
+gradle/
+gradlew
+gradlew.bat
 .idea/
 *.iml
 local.properties
