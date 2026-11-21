@@ -11,6 +11,11 @@ android {
     }
     compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
 }
+repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://dl.cloudsmith.io/public/rovo89/xposed/maven/' }
+}
 dependencies {
     compileOnly 'de.robv.android.xposed:api:82'
 }
